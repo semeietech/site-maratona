@@ -1,0 +1,359 @@
+//******** Classes do Slider Inicio ******//
+body {
+  margin: 10%;
+}
+
+#slider {
+  position: relative;
+  width: auto;
+  height: 800px;
+  overflow: hidden;
+  
+}
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 9999%;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 750ms ease;
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  width: 320px;
+  float: left;
+  margin: 0 auto;
+}
+#slider ul li img {
+
+}
+#slider ul li:nth-child(1) {
+  background-color: #00A6ED;
+  margin: 0 auto;
+}
+#slider ul li:nth-child(2) {
+  background-color: #FFD966;
+}
+#slider ul li:nth-child(3) {
+  background-color: #F71735;
+}
+#slider ul li:nth-child(4) {
+  background-color: #89da59;
+}
+#slider ul li:nth-child(5) {
+  background-color: #9881F5;
+}
+#slider #prev, #slider #next {
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+#slider #prev:hover, #slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+}
+#slider #prev {
+  left: 10px;
+}
+#slider #next {
+  right: 10px;
+}
+
+
+//******** Classes do Slider Fim ******//
+
+
+
+.nav {
+  background-color: #2A3133;
+  height: 60px;
+  margin: 0 auto;
+  display: block;
+  font-size: 18px;
+}
+
+.nav-ul {
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+.nav-ul li {
+  display: inline;
+  padding: 20px 0 0 10px;
+  margin: 0 0 0 auto;
+  float: left;
+}
+
+.nav-ul img {
+  float: left;
+  padding: 5px;
+}
+
+.menu {
+  margin: 0 0 0 750px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2A3133;
+  min-width: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 0 16px 20px 0;
+  margin: 40px 0 0;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.fonte {
+  font-family: "roboto condensed", sans-serif;
+}
+
+.nav {
+  background-color: #2A3133;
+  height: 60px;
+  margin: 0 auto;
+  display: block;
+  font-size: 18px;
+}
+
+.nav-ul {
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+.nav-ul li {
+  display: inline;
+  padding: 20px 0 0 10px;
+  margin: 0 0 0 auto;
+  float: left;
+}
+
+.nav-ul img {
+  float: left;
+  padding: 5px;
+}
+
+.menu {
+  margin: 0 0 0 750px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2A3133;
+  min-width: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 0 16px 20px 0;
+  margin: 40px 0 0;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main {
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.seta-1 {
+  float: left;
+  margin: 0 auto;
+  padding: 450px 0 0;
+}
+
+.seta-2 {
+  float: left;
+  margin: 0 auto;
+  padding: 450px 0 0;
+}
+
+.card {
+  width: 310px;
+  height: 780px;
+  float: left;
+  margin: 10px 5px;
+  background-color: #d7d3d7;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  line-height: 28px;
+}
+
+.card img {
+  width: 230px;
+  height: 150px;
+  max-width: 100%;
+  padding: 10px 15px;
+  margin: 0 auto;
+}
+
+.card h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #e3a42b;
+}
+
+.card h2::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #6d2db0;
+  margin: 0 0 0 65px;
+}
+
+
+.card p {
+  margin: 10px;
+}
+
+.button {
+  margin: 10px auto;
+  width: 150px;
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.button a {
+  text-decoration: none;
+  color: #2A3133;
+}
+
+.button a:hover {
+  text-align: center;
+  padding: 21px 26px;
+  background-color: #6d2db0;
+  color: white;
+}
+
+.topo {
+  background-image: url("../IMG/bastion-images/1408083032113_Bastion_112010_0002.jpg");
+  background-size: cover;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.topo h1 {
+  margin: 0 auto;
+  width: 960px;
+  color: white;
+  padding: 400px 0 50px;
+}
+
+.color {
+  color: #e3a42b;
+}
+
+.color::after {
+  content: '';
+  display: block;
+  width: 300px;
+  height: 3px;
+  background: #6d2db0;
+}
+
+.main-2 {
+  width: 600px;
+}
+
+.main-2 h2 {
+  color: #e3a42b;
+  text-transform: uppercase;
+}
+
+.main-2 h2::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #6d2db0;
+}
+
+.main-2 p {
+  line-height: 30px;
+}
+
+.nota {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: red;
+}
+
+.topo-z {
+  background-image: url("../IMG/zelda-images/medium_3_screenshot.png");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.topo-z h1 {
+  margin: 0 auto;
+  width: 960px;
+  color: white;
+  padding: 400px 0 50px;
+}
+
+.topo-p {
+  background-image: url("../IMG/pokemon-images/pokemon-gary.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.topo-p h1 {
+  margin: 0 auto;
+  width: 960px;
+  color: white;
+  padding: 400px 0 50px;
+}
